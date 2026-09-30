@@ -87,7 +87,6 @@ function cleanText(value) {
   return text;
 }
 
-
 //for date normalization, we can create a function that takes a date input and converts it into a standardized format. This function will handle various date formats and ensure that the output is consistent.
 function normalizeDateds111(value) {
   // 1. Convert input to text
@@ -103,7 +102,6 @@ function normalizeDateds111(value) {
   // 11. if month is greater than 12 then return invalid date="date"
   // 12. if year is less than 1000 then return invalid date="date"
   // 13. return date in MM-DD-YYYY format
-
 }
 
 function normalizeDate(value) {
